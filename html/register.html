@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/register.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html"><span>A</span>KIRA</a>
+                <ul class="bage-list">
+                    <li>HOME</li>
+                    <li class="shop">SHOP</li>
+                    <li>BLOG</li>
+                    <li>PAGES</li>
+                    <li class="buy">BUY</li>
+                </ul>
+                <ul class="list-card">
+                    <li>
+                        <p>MY ACCOUNT</p>
+                        <ul class="list-account">
+                            <div class="details-account">
+                                <p>MY ACCOUNT</p>
+                                <i class="fa-solid fa-xmark close close-account"></i>
+                            </div>
+                            <div class="user-account">
+                                <i class="fa-regular fa-user"></i>
+                                <div class="icon-name"><i class="fa-solid fa-hands-clapping"></i>
+                                    <h4 id="name-user"></h4>
+                                </div>
+                                <h5 id="logout-user">sign Out</h5>
+                            </div>
+                            <ul class="icons-account">
+                                <li><i class="fa-solid fa-minimize"></i>compare(2)</li>
+                                <li><i class="fa-regular fa-heart"></i>MY WISHLIST(4)</li>
+                                <li><i class="fa-solid fa-qrcode"></i>INFORMATION</li>
+                                <li id="contact-us"><a href="register.html"> <i class="fa-regular fa-envelope"></i>
+                                        <p>contactus</p>
+                                    </a></li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="glass"><i class="fa-solid fa-magnifying-glass"></i>
+
+                        <div class="search-bar">
+                            <h2>Search for products</h2>
+                            <div class="close_search">
+                                <i class="fa-solid fa-xmark close close-account"></i>
+                            </div>
+                            <p>Start typing to see products you are looking for.</p>
+                            <input type="text" placeholder="ENTER YOUR PRODUCT" id="search_input">
+
+                            <div id="content_search">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li> <i class="fa-regular fa-heart"></i></li>
+                    <li id="shopping-cart"><span id="num"></span><i class="fa-solid fa-cart-shopping shopping"></i>
+
+                        <div class="selected-card">
+                            <span id="product-qty"><span>QTY:</span> <button id="btn-qty">ejej</button></span>
+                        </div>
+                    </li>
+                    <li> <span>$0.00</span></li>
+                    <li class="signin"><button>SIGN IN</button>
+
+                        <ul class="list-login">
+                            <div class="details-account">
+                                <p>SIGN IN</p>
+                                <i class="fa-solid fa-xmark close close-login"></i>
+                            </div>
+                            <div class="user-account">
+
+                                <form class="form-login">
+                                    <span class="email">EMAIL</span>
+                                    <input value="" type="text" id='login-email'>
+                                    <span class="password">password</span>
+                                    <input value="" type="password" id='login-password'>
+                                    <i class="fa-solid fa-eye-slash eye"></i>
+                                    <input type="submit" id="send_login">
+                                </form>
+
+                                <p>Forgot your password?</p>
+                                <p class="forget"> No account?<a href="register.html">Create one here</a></p>
+                                <h5>Or sign in with:</h5>
+
+                            </div>
+                            <div class="account-icons">
+                                <p class="Facebook">Facebook <i class="fa-brands fa-facebook-f"></i></p>
+                                <p class="Twitter">Twitter<i class="fa-brands fa-twitter"></i></p>
+                                <p class="Linkedin">Linkedin<i class="fa-brands fa-linkedin"></i></p>
+                                <p class="Instagram">Instagram<i class="fa-brands fa-square-instagram"></i></p>
+                                <p class="Google">Google<i class="fa-brands fa-google"></i></p>
+                                <p class="Live">Live<i class="fa-brands fa-google-play"></i></p>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-account">
+        <h1 class="creat-account">Create an account </h1>
+        <span class="span-account"><a href="">Home</a> / Create an account </span>
+    </div>
+
+    <div class="content-form">
+        <div class="form-register">
+            <p>Already have an account? </p>
+            <a href="">Login in insted!</a>
+            <p>Social title </p>
+
+            <div class="loop">
+                Male<input type="radio" id='male' data-male="false">
+                Female<input type="radio" id='female' data-female="false">
+            </div>
+
+        </div>
+
+
+        <form class="form-account-register">
+            <p class="name">Email<span>*</span> </p>
+            <input type="text" id='email_user'>
+
+            <p class="first-name ">FIRST NAME <span>*</span> </p>
+            <input type="text" id='username'>
+
+            <p class="last-name">LAST NAME <span>*</span> </p>
+            <input type="text" id='last_name'>
+
+
+            <p class="PASSWORD">PASSWORD <span>*</span> </p>
+            <input type="password" id='password_user'> <i class="fa-solid fa-eye-slash eye eyes"></i>
+
+            <div class="check">
+                <input type="checkbox"><span> I agree to the terms and conditions and the privacy policy</span>
+            </div>
+
+            <input type="submit" value="SAVE" id="send">
+        </form>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="card-footer">
+                    <h2 class="main"><span>A</span>KIRA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer </p>
+                    <p>adipiscing elit. Donec odio. Quisque </p>
+                    <p>volutpat mattis eros. Nullam malesuada erat </p>
+                    <p>ut turpis. Suspendisse urna nibh, viverra </p>
+                    <p>non, semper suscipit, posuere a, pede ...</p>
+                </div>
+
+                <div class="card-footer">
+                    <h2>Contact Us</h2>
+                    <p>123 Fake Street, New York</p>
+                    <p>Phone: (08) 8827 633354</p>
+                    <p>>Fax: (08) 8827 633354</p>
+                    <p>Mail: contact@yoursite.com</p>
+                    <p>>Openning: 8:00 - 19:00, Mon - Sat</p>
+                </div>
+                <div class="card-footer">
+                    <h2>Information</h2>
+                    <p>About us</p>
+                    <p> Legal Notice</p>
+                    <p>Addresses</p>
+                    <p>Order</p>
+                    <p> Payment</p>
+                    <p> Suppliers</p>
+
+                </div>
+
+                <div class="card-footer">
+                    <h2>Information</h2>
+                    <p>About us</p>
+                    <p> Legal Notice</p>
+                    <p>Addresses</p>
+                    <p>Order</p>
+                    <p> Payment</p>
+                    <p> Suppliers</p>
+
+                </div>
+
+
+
+                <div class="card-footer">
+
+                    <h2>My account</h2>
+                    <p>My Cart</p>
+                    <p>Identity</p>
+                    <p>Order</p>
+                    <p>Contact us</p>
+                    <p>Addresses</p>
+                </div>
+
+
+            </div>
+            <ul>
+                <li>Returns</li>
+                <li>Orders History</li>
+                <li>Site Map</li>
+                <li>Testimonial</li>
+            </ul>
+            <p>Copyright © 2023 Akira Store. All Rights Reserved. </p>
+            <div class="image">
+                <img src="/imges/demo2-payment.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/header.js"></script>
+    <script src="/js/register.js"></script>
+</body>
+
+</html>

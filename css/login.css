@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size-h1: 5rem;
+    --font-size-h2: 4rem;
+    --font-size-h3: 3rem;
+    --font-size-h4: 2.4rem;
+}
+
+:root {
+    --color-blue: #007bff;
+    --color-indigo: #6610f2;
+    --color-purple: #6f42c1;
+    --color-pink: #e83e8c;
+    --color-red: #dc3545;
+    --color-orange: #fd7e14;
+    --color-yellow: #ffc107;
+    --color-green: #28a745;
+    --color-teal: #20c997;
+    --color-cyan: #17a2b8;
+    --color-white: #fff;
+    --color-gray: #6c757d;
+    --color-gray-dark: #343a40;
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-light: #f8f9fa;
+    --color-dark: #3e3e3e;
+    --color-body: #7a7a7a;
+    --color-label: #3f3f3f;
+    --color-title: #282828;
+    --color-semi: #282828;
+    --color-price: #dc3545;
+    --color-a: #282828;
+    --color-a-hover: #1367ef;
+    --color-date: #999999;
+    --color-primary: #1367ef;
+    --color-secondary: #1367ef;
+    --color-btn: #ffffff;
+    --color-btn-hover: #ffffff;
+    --bg-color-btn: #1367ef;
+    --bg-color-btn-hover: #1367ef;
+    --bg-color-label-new: #50c646;
+    --bg-color-label-sale: #ff7380;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.form-login{
+position: absolute;
+left: 50%;
+top:50%;
+transform: translate(-50%,-50%);
+}
+
+.form-login input {
+    display: block;
+    background-color: var(--color-danger);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+  
+}
+
+.form-login input::placeholder {
+    color: var(--color-placeholder);
+}
+
+.form-login #send_login{
+    
+ 
+}
+
+.form-register input#send_login:hover {
+    /* background-color: #e75c68; */
+}

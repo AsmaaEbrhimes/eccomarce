@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html"><span>A</span>KIRA</a>
+                <ul class="bage-list">
+                    <li>HOME</li>
+                    <li class="shop">SHOP</li>
+                    <li>BLOG</li>
+                    <li>PAGES</li>
+                    <li class="buy">BUY</li>
+                </ul>
+                <ul class="list-card">
+                    <li>
+                        <p>MY ACCOUNT</p>
+                        <ul class="list-account">
+                            <div class="details-account">
+                                <p>MY ACCOUNT</p>
+                                <i class="fa-solid fa-xmark close close-account"></i>
+                            </div>
+                            <div class="user-account">
+                                <i class="fa-regular fa-user"></i>
+                                <div class="icon-name"><i class="fa-solid fa-hands-clapping"></i>
+                                    <h4 id="name-user"></h4>
+                                </div>
+                                <h5 id="logout-user">sign Out</h5>
+                            </div>
+
+                            <ul class="icons-account">
+                                <li><i class="fa-solid fa-minimize"></i>compare(2)</li>
+                                <li><i class="fa-regular fa-heart"></i>MY WISHLIST(4)</li>
+                                <li><i class="fa-solid fa-qrcode"></i>INFORMATION</li>
+                                <li id="contact-us"><a href="register.html"> <i class="fa-regular fa-envelope"></i>
+                                        <p>contactus</p>
+                                    </a></li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="glass"><i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="search-bar">
+                            <h2>Search for products</h2>
+                            <div class="close_search">
+                                <i class="fa-solid fa-xmark close close-account"></i>
+                            </div>
+                            <p>Start typing to see products you are looking for.</p>
+                            <input type="text" placeholder="ENTER YOUR PRODUCT" id="search_input">
+                            <div id="content_search">
+                            </div>
+                        </div>
+                    </li>
+                    <li> <i class="fa-regular fa-heart"></i></li>
+                    <li id="shopping-cart"><span id="num"></span><i class="fa-solid fa-cart-shopping shopping"></i>
+                        <div class="selected-card">
+                        </div>
+                    </li>
+                    <li> <span>$0.00</span></li>
+                    <li class="signin"><button>SIGN IN</button>
+                        <ul class="list-login">
+                            <div class="details-account">
+                                <p>SIGN IN</p>
+                                <i class="fa-solid fa-xmark close close-login"></i>
+                            </div>
+                            <div class="user-account">
+                                <form class="form-login">
+                                    <span class="email">EMAIL</span>
+                                    <input value="" type="text" id='login-email'>
+                                    <span class="password">password</span>
+                                    <input value="" type="password" id='login-password'>
+                                    <i class="fa-solid fa-eye-slash eye"></i>
+                                    <input type="submit" id="send_login">
+                                </form>
+                                <p>Forgot your password?</p>
+                                <p class="forget"> No account?<a href="register.html">Create one here</a></p>
+                                <h5>Or sign in with:</h5>
+                            </div>
+                            <div class="account-icons">
+                                <p class="Facebook">Facebook <i class="fa-brands fa-facebook-f"></i></p>
+                                <p class="Twitter">Twitter<i class="fa-brands fa-twitter"></i></p>
+                                <p class="Linkedin">Linkedin<i class="fa-brands fa-linkedin"></i></p>
+                                <p class="Instagram">Instagram<i class="fa-brands fa-square-instagram"></i></p>
+                                <p class="Google">Google<i class="fa-brands fa-google"></i></p>
+                                <p class="Live">Live<i class="fa-brands fa-google-play"></i></p>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider" id='new'>
+        <div class="container">
+            <div class="slider-content">
+                <div class="image-slider">
+                    <img src="/imges/woman-holding-black-friday-shopping-bag_23-2149093529.avif" alt="" srcset="">
+                </div>
+                <div class="slider-text">
+                    <p> WONEN COLLECTION 2023</p>
+                    <h3>GET UP TO 50% OFF</h3>
+                    <h3>SELECT STYLES</h3>
+                    <button>SHOP NOW</button>
+                </div>
+                <div class="image-slider">
+                    <img src="/imges/stock-photo-two-friends-going-shopping-215960878.jpg" alt="" srcset="">
+                </div>
+                <div class="slider-text">
+                    <p> WONEN COLLECTION 2023</p>
+                    <h3>GET UP TO 50% OFF</h3>
+                    <h3>SELECT STYLES</h3>
+                    <button>SHOP NOW</button>
+                </div>
+
+                <div class="image-slider">
+                    <img src="/imges/th (1).jpg" alt="" srcset="">
+
+                </div>
+                <div class="slider-text">
+                    <p> WONEN COLLECTION 2023</p>
+                    <h3>GET UP TO 50% OFF</h3>
+                    <h3>SELECT STYLES</h3>
+                    <button>SHOP NOW</button>
+                </div>
+
+                <div class="slider-icons">
+                    <i class="fa-solid fa-angle-left left" id='pref'></i>
+                    <i class="fa-solid fa-angle-right right" id='next'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-one">
+        <div class="container">
+            <div class="product-one-content">
+                <div class="card">
+                    <div class="image">
+                        <img src="/imges/12-home_default.jpg" alt="" srcset="">
+                    </div>
+                    <p>Acsseiors</p>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="/imges/9-home_default.jpg" alt="" srcset="">
+                    </div>
+                    <p>WOMEN</p>
+                </div>
+                <div class="card">
+                    <div class="images image">
+                        <img src="/imges/young-handsome-man-choosing-clothes-shop_1303-19720.avif" class='img' alt=""
+                            srcset="">
+                    </div>
+                    <p>MENS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="container">
+            <div class="feature-content">
+                <div class="feature-text">
+                    <p>AKIRA COLLECTIONS</p>
+                    <h6>FEATURED PRODUCTS</h6>
+                    <ul class="feature-list">
+                        <li class="Kids">Kids</li>
+                        <li>Women's</li>
+                        <li>Mens</li>
+                    </ul>
+                </div>
+                <div class="feature-content-slide">
+                    <div class="card-one card">
+
+                    </div>
+                    <ul class="slider">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="overlay">
+        <div class="content-overlay">
+            <div class="content-overlay-img"> </div>
+            <div class="content-overlay-text">
+                <h1>CUSTOMERS REVIEWS </h1>
+                <h1><i class="fa-solid fa-quote-right"></i></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet nesciunt reiciendis
+                    aperiam laboriosam tempora magnam voluptatibus quasi incidunt repudiandae amet ea, sit aliquam
+                    quisquam reprehenderit voluptate, ducimus perspiciatis quibusdam! quisquam reprehenderit
+                    voluptate, ducimus perspiciatis quibusdam! quisquam reprehenderit voluptate, ducimus
+                    perspiciatis quibusdam!</p>
+            </div>
+
+            <div class="card-overlay">
+                <div class="content-overlay-serices">
+                    <img src="/imges/demo2-testi1.jpg" alt="" srcset="">
+                    <div class="content-overlay-serices-span">
+                        <div>jane Doe</div>
+                        <div>Online Markter</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <ul class="content-overlay-list">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+    <div class="best-product">
+        <div class="container">
+            <div class="our-best-sellers">
+                <div class="our-best-sellers-text">
+                    <p>AKIRA COLLECTIONS</p>
+                    <h6>OUR BESTSELLERS</h6>
+                    <p>Nullam gravida, dolor ac ultrices lobortis, mi dolor justo. </p>
+                </div>
+                <div class="content-seller-sales">
+                    <div class="content-sellers">
+                        <div class="image">
+                            <img src="/imges/nulla-imperdiet-purus.jpg" alt="" srcset="">
+                            <div class="img-over">
+                                <img src="/imges/nulla-imperdiet-purus_002.jpg" alt="" srcset="">
+                            </div>
+
+                        </div>
+                        <div class="content-sellers-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping shopping"></i><span>SELECT OPTION</span></button>
+                        <h5>prasent In Anta</h5>
+                        <p>SHOP</p>
+                        <div class="content-sellers-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>$129.00</p>
+                    </div>
+
+                    <div class="content-sellers">
+                        <div class="image">
+                            <img src="/imges/praesent-in-ante.jpg" alt="" srcset="">
+                            <div class="img-over">
+                                <img src="/imges/praesent-in-ante_002.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="content-sellers-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping shopping"></i><span>SELECT OPTION</span></button>
+                        <h5>prasent In Anta</h5>
+                        <p>SHOP</p>
+                        <div class="content-sellers-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>$129.00</p>
+                    </div>
+
+                    <div class="content-sellers">
+                        <div class="image">
+                            <img src="/imges/sed-feugiat-varius.jpg" alt="" srcset="">
+                            <div class="img-over">
+                                <img src="/imges/sed-feugiat-varius_002.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="content-sellers-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping shopping"></i><span>SELECT OPTION</span></button>
+                        <h5>prasent In Anta</h5>
+                        <p>SHOP</p>
+                        <div class="content-sellers-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>$129.00</p>
+                    </div>
+
+                    <div class="content-sellers">
+                        <div class="image">
+                            <img src="/imges/pellsque-tortor-massa_002.jpg" alt="" srcset="">
+                            <div class="img-over">
+                                <img src="/imges/pellsque-tortor-massa.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="content-sellers-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping shopping"></i><span>SELECT OPTION</span></button>
+                        <h5>prasent In Anta</h5>
+                        <p>SHOP</p>
+                        <div class="content-sellers-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>$129.00</p>
+                    </div>
+
+                    <div class="content-sellers">
+                        <div class="image">
+                            <img src="/imges/sed-hendrerit-tempor.jpg" alt="" srcset="">
+                            <div class="img-over">
+                                <img src="/imges/sed-hendrerit-tempor_002.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="content-sellers-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping shopping"></i><span>SELECT OPTION</span></button>
+                        <h5>prasent In Anta</h5>
+                        <p>SHOP</p>
+                        <div class="content-sellers-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>$129.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new">
+        <div class="container">
+            <div class="new-content">
+                <div class="new-text">
+                    <p>WE MAKE IT EASY TO EXPRIENCE CREATIVITY</p>
+                    <h2>Stylish New Design</h2>
+                    <p>Welcome to the home of women's fashion clothing & accessories at Italy</p>
+                    <a href="#new"><button>Shop now !</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us">
+        <div class="container">
+            <div class="contactus">
+                <div class="content-contact">
+                    <div class="contennt-text">
+                        <h1>SIGN-UP <span>NEWSLETTER</span></h1>
+                        <p>Sign up for the latest news, offers and styles</p>
+                    </div>
+
+                    <div class="content-input">
+                        <input placeholder="your email adress" type="text" class='input-1'>
+                        <button>SUPSCRIPE</button>
+                        <div class="checkbox">
+                            <input type="checkbox" name="" id="check">
+                            <span>Enim quis fugiat consequat elit minim nisi eu occaecat occaecat deserunt aliquip nisi
+                                ex
+                                deserunt.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+
+                <div class="card-footer">
+                    <h2 class="main"><span>A</span>KIRA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer </p>
+                    <p>adipiscing elit. Donec odio. Quisque </p>
+                    <p>volutpat mattis eros. Nullam malesuada erat </p>
+                    <p>ut turpis. Suspendisse urna nibh, viverra </p>
+                    <p>non, semper suscipit, posuere a, pede ...</p>
+                </div>
+
+                <div class="card-footer">
+                    <h2>Contact Us</h2>
+                    <p>123 Fake Street, New York</p>
+                    <p>Phone: (08) 8827 633354</p>
+                    <p>>Fax: (08) 8827 633354</p>
+                    <p>Mail: contact@yoursite.com</p>
+                    <p>>Openning: 8:00 - 19:00, Mon - Sat</p>
+                </div>
+                <div class="card-footer">
+                    <h2>Information</h2>
+                    <p>About us</p>
+                    <p> Legal Notice</p>
+                    <p>Addresses</p>
+                    <p>Order</p>
+                    <p> Payment</p>
+                    <p> Suppliers</p>
+
+                </div>
+
+                <div class="card-footer">
+                    <h2>Information</h2>
+                    <p>About us</p>
+                    <p> Legal Notice</p>
+                    <p>Addresses</p>
+                    <p>Order</p>
+                    <p> Payment</p>
+                    <p> Suppliers</p>
+
+                </div>
+
+
+                <div class="card-footer">
+
+                    <h2>My account</h2>
+                    <p>My Cart</p>
+                    <p>Identity</p>
+                    <p>Order</p>
+                    <p>Contact us</p>
+                    <p>Addresses</p>
+                </div>
+
+
+            </div>
+            <ul>
+                <li>Returns</li>
+                <li>Orders History</li>
+                <li>Site Map</li>
+                <li>Testimonial</li>
+            </ul>
+            <p>Copyright © 2023 Akira Store. All Rights Reserved. </p>
+            <div class="image">
+                <img src="/imges/demo2-payment.jpg" alt="" srcset="">
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="/js/global.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>

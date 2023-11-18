@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/product.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html"><span>A</span>KIRA</a>
+                <ul class="bage-list">
+                    <li>HOME</li>
+                    <li class="shop">SHOP</li>
+                    <li>BLOG</li>
+                    <li>PAGES</li>
+                    <li class="buy">BUY</li>
+                </ul>
+                <ul class="list-card">
+                    <li>
+                        <p>MY ACCOUNT</p>
+                        <ul class="list-account">
+                            <div class="details-account">
+                                <p>MY ACCOUNT</p>
+                                <i class="fa-solid fa-xmark close close-account"></i>
+                            </div>
+                            <div class="user-account">
+                                <i class="fa-regular fa-user"></i>
+                                <div class="icon-name"><i class="fa-solid fa-hands-clapping"></i>
+                                    <h4 id="name-user"></h4>
+                                </div>
+                                <h5 id="logout-user">sign Out</h5>
+                            </div>
+                            <ul class="icons-account">
+                                <li><i class="fa-solid fa-minimize"></i>compare(2)</li>
+                                <li><i class="fa-regular fa-heart"></i>MY WISHLIST(4)</li>
+                                <li><i class="fa-solid fa-qrcode"></i>INFORMATION</li>
+                                <li id="contact-us"><a href="register.html"> <i class="fa-regular fa-envelope"></i>
+                                        <p>contactus</p>
+                                    </a></li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="glass"><i class="fa-solid fa-magnifying-glass"></i>
+
+                        <div class="search-bar">
+                            <h2>Search for products</h2>
+                            <div class="close_search">
+                                <i class="fa-solid fa-xmark close close-account"></i>
+                            </div>
+                            <p>Start typing to see products you are looking for.</p>
+                            <input type="text" placeholder="ENTER YOUR PRODUCT" id="search_input">
+
+                            <div id="content_search">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li> <i class="fa-regular fa-heart"></i></li>
+                    <li id="shopping-cart"><span id="num"></span><i class="fa-solid fa-cart-shopping shopping"></i>
+
+                        <div class="selected-card">
+                            <span id="product-qty"><span>QTY:</span> <button id="btn-qty">ejej</button></span>
+                        </div>
+                    </li>
+                    <li> <span>$0.00</span></li>
+                    <li class="signin"><button>SIGN IN</button>
+
+                        <ul class="list-login">
+                            <div class="details-account">
+                                <p>SIGN IN</p>
+                                <i class="fa-solid fa-xmark close close-login"></i>
+                            </div>
+                            <div class="user-account">
+
+                                <form class="form-login">
+                                    <span class="email">EMAIL</span>
+                                    <input value="" type="text" id='login-email'>
+                                    <span class="password">password</span>
+                                    <input value="" type="password" id='login-password'>
+                                    <i class="fa-solid fa-eye-slash eye"></i>
+                                    <input type="submit" id="send_login">
+                                </form>
+
+                                <p>Forgot your password?</p>
+                                <p class="forget"> No account?<a href="register.html">Create one here</a></p>
+                                <h5>Or sign in with:</h5>
+
+                            </div>
+                            <div class="account-icons">
+                                <p class="Facebook">Facebook <i class="fa-brands fa-facebook-f"></i></p>
+                                <p class="Twitter">Twitter<i class="fa-brands fa-twitter"></i></p>
+                                <p class="Linkedin">Linkedin<i class="fa-brands fa-linkedin"></i></p>
+                                <p class="Instagram">Instagram<i class="fa-brands fa-square-instagram"></i></p>
+                                <p class="Google">Google<i class="fa-brands fa-google"></i></p>
+                                <p class="Live">Live<i class="fa-brands fa-google-play"></i></p>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="slide_show">
+        <div class="container">
+            <div class="content">
+
+
+            </div>
+        </div>
+    </div>
+    <script src="/js/header.js"></script>
+    <script src="/js/product.js"></script>
+
+</body>
